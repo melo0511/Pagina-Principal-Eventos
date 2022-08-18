@@ -119,7 +119,6 @@ a:hover{
     height: 9vh;
     background-color: transparent;
     margin-top: 2.5rem;
-    
 }
 
 #container-destacados{
@@ -319,22 +318,30 @@ footer{
     height: 350px;
     background:#0071ce;
     margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 nav{
-    margin-left: 20rem;
+    display: flex;
     background-color: transparent;
     height: 78%;
     width: 70%;
+    justify-content: center;
+    flex-direction: column;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-content: center;
 }
 
 nav ul li{
+    text-align: center;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -343,6 +350,7 @@ nav ul li{
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     width: 40%;
+    font-weight: bold;
 }
 
 #section-footer{
@@ -350,13 +358,14 @@ nav ul li{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    margin-left: 20rem;
     height: 22%;
-    width: 60%;
+    width: 70%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    justify-content: space-between;
 }
 
 
@@ -383,12 +392,16 @@ nav ul li{
     justify-content: center;
 }
 
-.divFooter{
+.divFooter>p{
     display: flex;
-    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #ul-1{
     margin-bottom: 1rem;
+}
+
+#order>p{
+    text-align: center;
 }
