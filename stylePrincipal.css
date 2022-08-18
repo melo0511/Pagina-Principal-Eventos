@@ -325,7 +325,7 @@ nav{
     margin-left: 20rem;
     background-color: transparent;
     height: 78%;
-    width: 50%;
+    width: 70%;
 }
 
 nav ul {
@@ -341,7 +341,7 @@ nav ul li{
     gap: 18px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     width: 40%;
 }
 
@@ -349,7 +349,7 @@ nav ul li{
     border-top: 1px white solid;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 20rem;
     height: 22%;
     width: 60%;
