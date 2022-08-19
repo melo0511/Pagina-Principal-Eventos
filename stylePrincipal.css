@@ -67,8 +67,11 @@ a:hover{
     color: white;
 }
 
-
 #main{
+    background-color: #ffffff;
+}
+
+#principal{
     display: flex;
     justify-content: center;
 }
@@ -135,7 +138,7 @@ a:hover{
 /*HOJA*/
 
 #section-inicio2{
-    background: white;
+    background: transparent;
     height: 100%;
     width: 100%;
     }
@@ -328,7 +331,7 @@ nav{
     display: flex;
     background-color: transparent;
     height: 78%;
-    width: 70%;
+    width: 82%;
     justify-content: center;
     flex-direction: column;
 }
@@ -395,7 +398,7 @@ nav ul li{
 .divFooter>p{
     display: flex;
     justify-content: center;
-    text-align: center;
+    width: 20%;
 }
 
 #ul-1{
